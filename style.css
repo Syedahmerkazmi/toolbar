@@ -1,0 +1,1250 @@
+/* Global  */
+
+.fa-bars:before {
+  content: "";
+  display: none;
+}
+/* fonts start */
+@font-face {
+  font-family: "myriad_probold";
+  src: url("../fonts/-webfont.woff2") format("woff2"),
+    url("../fonts/myriadprobold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "myriad_prolight";
+  src: url("../fonts/myriadprolight-webfont.woff") format("woff2"),
+    url("../fonts/myriadprolight-webfont.woff2") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "myriad_proregular";
+  src: url("../fonts/myriad_pro_regular-webfont.woff") format("woff2"),
+    url("../fonts/myriad_pro_regular-webfont.woff2") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* /fonts end */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.tittle-main {
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  font-family: "Fira Sans", sans-serif;
+}
+
+body {
+  font-family: "Fira Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Unbounded", cursive;
+}
+
+/* header start */
+/* Existing CSS */
+
+.header {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+.header .container {
+  padding: 15px;
+}
+
+.header .logo {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.header .logo img {
+  max-width: 140px;
+}
+
+.header .nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header .nav {
+  display: inline-block;
+  vertical-align: top;
+  width: calc(100% - 301px);
+  text-align: center;
+}
+
+.header .nav li {
+  list-style-type: none;
+  display: inline-block;
+  padding-top: 14px;
+}
+
+.header .nav a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "myriad_proregular";
+  color: #7f8c8d;
+  padding: 33px 22px;
+}
+
+.header .button {
+  display: inline-block;
+  vertical-align: top;
+  padding: 6px 0;
+  max-width: 152px;
+
+
+}
+
+.header .button a {
+  cursor: pointer;
+  border: none;
+  font-size: 20px;
+  background-color: #1abc9c;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  padding: 8px 16px;
+}
+
+/* Add this CSS to align the button and navbar inline */
+.header .nav ul {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* header start */
+
+/* banner */
+.banner {
+  background-image: url(../images/background-img.png);
+  background-size: cover;
+  background-position: center center;
+  height: 560px;
+}
+
+.banner .moving-boats {
+  padding-top: 165px;
+  text-align: center;
+}
+
+.banner h1 {
+  max-width: 603px;
+  margin: 0 auto;
+  font-family: "myriad_proregular";
+  font-weight: 400;
+  color: white;
+  font-size: 50px;
+}
+
+.banner span {
+  display: block;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 30px;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 200;
+  color: white;
+  font-style: italic;
+}
+
+.banner .explore-more {
+  text-align: center;
+  background-image: url(../images/arrow-new.png);
+  background-repeat: no-repeat;
+  background-position: 90% center;
+  margin-top: 64px;
+}
+
+.banner a {
+  cursor: pointer;
+  border: none;
+  font-size: 22px;
+  background-color: #1abc9c;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  padding: 22px 80px 22px 20px;
+}
+
+.boat-shipping {
+  padding: 100px 0;
+}
+
+.boat-shipping h2 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.boat-shipping p {
+  text-align: center;
+  font-weight: 300;
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: 20px;
+  font-family: "Fira Sans", sans-serif;
+  font-style: italic;
+  color: #99a3a4;
+}
+
+/* moving boats */
+.moving-boat {
+  background-image: url(../images/ship.png);
+  background-position: center center;
+  background-size: cover;
+  height: 500px;
+}
+
+.moving-boat .clients {
+  float: right;
+  width: 50%;
+  height: 500px;
+  display: block;
+  padding-top: 120px;
+}
+
+.moving-boat h2 {
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.moving-boat p {
+  max-width: 466px;
+  padding-top: 35px;
+  font-size: 20px;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  color: #515457;
+}
+
+.moving-boat .counter {
+  padding-top: 40px;
+  display: inline-block;
+  max-width: 154px;
+  width: 100%;
+  text-align: center;
+}
+
+.moving-boat span {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 300;
+  font-size: 34px;
+  color: #515457;
+}
+
+.moving-boat h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  padding-top: 8px;
+}
+
+/* moving boats end */
+
+/* ships start */
+.ships {
+  padding-top: 100px;
+}
+
+.ships h2 {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.ships p {
+  font-size: 20px;
+  text-align: center;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  max-width: 843px;
+  margin: 0 auto;
+  color: #7f8c8d;
+}
+
+.ships .box-name {
+  position: relative;
+  box-sizing: border-box;
+  padding: 100px 0;
+}
+
+.ships .ship-box {
+  display: inline-block;
+  position: relative;
+  margin: 12px;
+  width: calc(33.3% - 27px);
+}
+
+.ships img {
+  width: 100%;
+  height: 100%;
+}
+
+.ships .box-contant {
+  max-width: 363px;
+  max-height: 115px;
+  background-color: rgba(24, 170, 141, 0.9);
+  bottom: 4px;
+  position: absolute;
+  width: 100%;
+}
+
+.ships span {
+  display: block;
+  padding: 46px 0;
+  text-align: center;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+/* ships end */
+
+/* chose us start */
+
+.chose-us {
+  background-image: url(../images/left-shift.png);
+  background-position: center center;
+  background-size: cover;
+  min-height: 500px;
+}
+
+.chose-us .chose-box {
+  width: 50%;
+  padding-top: 110px;
+}
+
+.chose-us h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  color: #383939;
+}
+
+.chose-us .total-shipping {
+  padding-top: 45px;
+}
+
+.chose-us span {
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #d7dede;
+  font-family: "myriad_proregular";
+  font-size: 30px;
+  color: #7f8c8d;
+  padding: 5px 15px;
+  font-weight: 700;
+}
+
+.chose-us h2 {
+  padding: 0 10px;
+  font-size: 16px;
+  padding-top: 5px;
+  max-width: 84px;
+  padding-left: 20px;
+  color: #7f8c8d;
+  display: inline-block;
+}
+
+.chose-us p {
+  font-size: 14px;
+  font-family: "Fira Sans";
+  font-weight: 300;
+  font-style: italic;
+  max-width: 402px;
+  color: #7f8c8d;
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+/* chose us end */
+
+/* our strength start */
+
+.our-strength {
+  padding: 100px 0;
+}
+
+.our-strength .advantages {
+  text-align: center;
+  padding-bottom: 34px;
+}
+
+.our-strength .boat-img {
+  padding-bottom: 34px;
+}
+
+.our-strength h2 {
+  padding-bottom: 34px;
+}
+
+.our-strength p {
+  max-width: 646px;
+  margin: 0 auto;
+  font-size: 20px;
+  font-family: "Fira Sans";
+  font-weight: 300;
+  font-style: italic;
+  color: #7f8c8d;
+}
+
+.our-strength .benefits {
+  padding-top: 80px;
+}
+
+.our-strength .small-logo {
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  max-width: 33%;
+}
+
+.our-strength .small-logo:nth-child(4),
+.our-strength .small-logo:nth-child(5),
+.our-strength .small-logo:nth-child(6) {
+  padding-top: 70px;
+}
+
+.our-strength .content {
+  padding-top: 40px;
+  max-width: 272px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.our-strength span {
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: #464646;
+}
+
+.our-strength .paragraph {
+  margin: 0 auto;
+  padding-top: 25px;
+  font-size: 14px;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 300;
+  color: #7f8c8d;
+}
+
+/* our strength start */
+
+/* footer start */
+.footer {
+  background-image: url(../images/footer-bg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+
+.footer .container {
+  z-index: 2;
+  position: relative;
+}
+
+.footer .company {
+  padding: 70px 0;
+}
+
+.footer .service {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 24%;
+  width: 100%;
+}
+
+.footer h2 {
+  color: white;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+.footer ul {
+  list-style-type: none;
+}
+
+.footer li {
+  padding-top: 5px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
+
+.footer span {
+  color: white;
+  font-size: 12px;
+}
+
+.footer .copy {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.footer::before {
+  content: "";
+  z-index: 1;
+  background-color: rgba(81, 87, 86, 0.9);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.footer p {
+  color: white;
+  font-size: 14px;
+}
+
+/* footer end */
+
+/* media querry for small laptop screen  start*/
+@media screen and (max-width: 1199px) {
+  .header {
+    padding: 0 40px;
+  }
+
+  .header .nav a {
+    font-size: 16px;
+  }
+
+  .header .logo img {
+    max-width: 120px;
+  }
+
+  .header .button {
+    padding: 3px 0;
+    max-width: 143px;
+  }
+
+  .header .button a {
+    font-size: 15px;
+  }
+
+  .banner h1 {
+    font-size: 44px;
+  }
+
+  .banner span {
+    font-size: 28px;
+  }
+
+  .banner a {
+    font-size: 19px;
+    padding: 16px 60px 16px 16px;
+  }
+
+  .boat-shipping p {
+    max-width: 703px;
+  }
+
+  .ships span {
+    font-size: 18px;
+  }
+
+  .moving-boat span {
+    font-size: 32px;
+  }
+
+  .chose-us span {
+    font-size: 18px;
+    padding: 5px 11px;
+  }
+
+  .chose-us h2 {
+    font-size: 12px;
+  }
+
+  .chose-us p {
+    font-size: 12px;
+    max-width: 358px;
+  }
+
+  .footer .company {
+    margin-left: 32px;
+  }
+}
+
+/* media querry for tablet screen  start*/
+
+@media screen and (max-width: 768px) {
+
+  
+  .container {
+    padding: 0;
+    max-width: 991px;
+    box-sizing: border-box;
+  }
+
+  .header {
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .header .logo img {
+    max-width: 90px;
+  }
+
+  .header .nav {
+    width: calc(100% - 95px);
+  }
+
+  .header .nav ul {
+    list-style-type: none;
+    display: inline-block;
+  }
+
+  .header .nav li {
+    padding-top: 5px;
+  }
+
+  .header .nav a {
+    font-size: 12px;
+  }
+
+  .header .button {
+    display: inline-block;
+  }
+
+  .banner h1 {
+    font-size: 36px;
+    max-width: 448px;
+  }
+
+  .banner span {
+    font-size: 24px;
+  }
+
+  .banner a {
+    font-size: 15px;
+    padding: 11px 49px 10px 14px;
+  }
+
+  .tittle-main {
+    font-size: 20px;
+  }
+
+  .boat-shipping p {
+    max-width: 571px;
+    font-size: 16px;
+  }
+
+
+
+  .moving-boat {
+    background-image: url(../images/media-querry-bg-left.png);
+  }
+  .moving-boat::after {
+    content: "";
+    z-index: 1;
+    position: absolute;
+    background-color: rgba(81, 87, 86, 0.9);
+    width: 100%;
+    height: 72%;
+    opacity: 0.6;
+  }
+  .moving-boat .clients{
+   
+    position: relative;
+    z-index: 2;
+    color: #515457;
+  }
+  .moving-boat p{
+    font-family: "Fira Sans";
+    color: #515457;
+  }
+ 
+  
+  .moving-boat .container {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .moving-boat p {
+    padding-top: 14px;
+    font-size: 13px;
+  }
+
+  .moving-boat .counter {
+    padding-top: 30px;
+  }
+
+  .moving-boat span {
+    font-size: 20px;
+    color: #515457;
+    
+  }
+.moving-boat h5 {
+    font-size: 11px;
+  }
+
+  .tittle-main {
+    font-size: 18px;
+  }
+
+  .ships h2 {
+    padding-bottom: 16px;
+  }
+
+  .ships p {
+    font-size: 14px;
+    max-width: 568px;
+  }
+
+  .ships .box-name {
+    padding: 40px 0;
+  }
+
+  .ships .box-contant {
+    max-width: 100%;
+    max-height: 73px;
+  }
+
+  .ships span {
+    font-size: 13px;
+    padding: 27px 0;
+  }
+
+  .chose-us {
+    background-image: url(../images/media-querry-bg-right.png);
+  }
+  .chose-us::before {
+    content: "";
+    z-index: 1;
+    position: absolute;
+    background-color: rgba(81, 87, 86, 0.9);
+    width: 100%;
+    height: 72%;
+    opacity: 0.8;
+  }
+
+  .chose-us .container{
+    z-index: 2;
+    position: relative;
+  
+  }
+  .chose-us .chose-box {
+    width: 100%;
+  }
+
+  .chose-us h1 {
+    color: white;
+    width: 100%;
+    text-align: center;
+  }
+
+  .chose-us span {
+    color: black;
+
+  }
+  .chose-us h2 {
+    color: white;
+    padding-top: 30px;
+
+   
+  }
+  .chose-us p {
+    color: white;
+    font-family: "Fira Sans";
+    padding-top: 30px;
+
+  }
+  
+  .our-strength {
+    padding: 62px 0;
+  }
+
+  .our-strength .boat-img img {
+    max-width: 95px;
+  }
+
+  .our-strength h2 {
+    padding-bottom: 20px;
+  }
+
+  .our-strength p {
+    max-width: 577px;
+    font-size: 15px;
+  }
+
+  .our-strength .benefits {
+    padding-top: 30px;
+    text-align: center;
+  }
+
+  .our-strength .small-logo img {
+    max-width: 38px;
+  }
+
+  .our-strength .content {
+    padding-top: 25px;
+  }
+
+  .our-strength span {
+    font-size: 16px;
+  }
+
+  .our-strength .paragraph {
+    padding-top: 19px;
+    font-size: 13px;
+  }
+
+  .our-strength .small-logo:nth-child(4),
+  .our-strength .small-logo:nth-child(5),
+  .our-strength .small-logo:nth-child(6) {
+    padding-top: 47px;
+  }
+
+  .footer .company {
+
+
+  }
+  
+  .chose-us .total-shipping {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: black;
+  
+  }
+  .footer span {
+    font-size: 10px;
+  }
+
+  .footer a {
+    font-size: 10px;
+  }
+
+  .footer h2 {
+    font-size: 15px;
+  }
+
+  .footer p {
+    font-size: 10px;
+  }
+}
+
+.icon {
+  display: none;
+}
+
+@media screen and (min-width: 376px) {
+  .topnav #myLinks {
+    display: none;
+  }
+}
+
+
+/* Media Queries */
+@media screen and (max-width: 767px) {
+  .header .container {
+    padding: 10px;
+  }
+
+  .header .logo img {
+    max-width: 120px;
+  }
+
+  .header .nav {
+    width: 100%;
+    text-align: center;
+  }
+
+  .header .nav a {
+    font-size: 18px;
+    padding: 20px 12px;
+  }
+
+  .header .button a {
+    font-size: 18px;
+    padding: 14px 20px;
+  }
+
+  .banner h1 {
+    font-size: 36px;
+    padding: 20px;
+  }
+
+  .banner span {
+    font-size: 22px;
+    padding: 15px;
+  }
+
+  .banner a {
+    font-size: 18px;
+    padding: 16px 40px 16px 12px;
+  }
+
+  .moving-boat h2 {
+    font-size: 27px;
+    padding-bottom: 10px;
+  }
+
+  .moving-boat p {
+    font-size: 18px;
+    padding-top: 10px;
+  }
+
+  .services h2 {
+    font-size: 36px;
+    padding-bottom: 20px;
+  }
+
+  .services p {
+    font-size: 18px;
+  }
+
+  .services .service h3 {
+    font-size: 20px;
+    padding-top: 10px;
+  }
+
+  .testimonials h2 {
+    font-size: 36px;
+    padding-bottom: 20px;
+  }
+
+  .testimonials p {
+    font-size: 18px;
+  }
+
+  .testimonials .testimonial h3 {
+    font-size: 20px;
+    padding-top: 10px;
+  }
+
+  .contact h2 {
+    font-size: 36px;
+    padding-bottom: 20px;
+  }
+
+  .contact p {
+    font-size: 18px;
+  }
+
+  .footer h2 {
+    font-size: 24px;
+    padding-bottom: 20px;
+  }
+
+  .footer p {
+    font-size: 16px;
+  }
+
+  .footer .social-icons a {
+    font-size: 20px;
+    margin: 0 15px;
+  }
+}
+
+/* for 1024 600  */
+@media  screen and (max-width: 1024px) and (min-width: 600px)  {
+
+  .header .nav{
+    width: auto;
+  }
+  .chose-us .chose-box {
+    width: auto;
+    padding: 110px;
+}
+
+
+}
+/* 412 914 */
+@media  screen and (max-width: 914px) and (min-width: 412px) {
+
+  .moving-boat .clients {
+    width: 50%;
+    height: auto;
+    padding: 100px;
+}
+.moving-boat .counter {
+  display: inline-block;
+  width: 26%;
+  text-align: center;
+}
+.boat-shipping p {
+  width: 70%;
+  text-align: center;
+  padding: 20px;
+}
+}
+
+/* media querry for mobile screen  start*/
+@media screen and (max-width: 375px) {
+  .topnav #myLinks {
+    display: block;
+  }
+
+  .banner .moving-boats {
+    padding-top: 90px;
+    text-align: center;
+}
+  .fa-bars:before {
+    content: "";
+    display: inline-block;
+    margin-left: 900%;
+  }
+  .header .nav{
+    display: none;
+  }
+  .header a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .container {
+    padding: 0;
+  }
+
+  .header .container {
+    padding: 0;
+  }
+
+  .banner h1 {
+    font-size: 25px;
+    max-width: 356px;
+  }
+
+  .banner span {
+    font-size: 20px;
+    padding-top: 20px;
+  }
+
+  .boat-shipping {
+    padding: 36px 0;
+  }
+
+  .banner .explore-more {
+    margin-top: 49px;
+  }
+
+  .boat-shipping p {
+    font-size: 11px;
+    padding: 0 12px;
+  }
+
+  .moving-boat {
+    position: relative;
+  }
+
+  .moving-boat .container {
+    z-index: 2;
+    position: relative;
+  }
+
+  .moving-boat .clients {
+    width: 100%;
+    height: auto;
+  }
+
+  .moving-boat::before {
+    content: "";
+    background-color: rgba(81, 87, 86, 0.9);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+  }
+
+  .moving-boat h2 {
+    font-size: 18px;
+    text-align: center;
+    color: white;
+  }
+
+  .moving-boat p {
+    padding: 8px 13px 0;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+  }
+
+  .moving-boat .counter {
+    max-width: 96px;
+  }
+
+  .moving-boat span {
+    font-size: 20px;
+    color: white;
+  }
+
+  .moving-boat h5 {
+    font-size: 8px;
+    color: white;
+  }
+
+  .ships p {
+    font-size: 10px;
+    max-width: 268px;
+  }
+
+  .ships .ship-box {
+    display: block;
+    width: 320px;
+    margin: 0px;
+    padding-top: 15px;
+  }
+
+  .ships .box-contant {
+    max-width: 100%;
+  }
+
+  .ships span {
+    font-size: 17px;
+  }
+
+  .chose-us {
+    position: relative;
+  }
+
+  .chose-us .chose-box {
+    z-index: 2;
+    position: relative;
+    
+
+  }
+
+  .chose-us::before {
+    content: "";
+    background-color: rgba(81, 87, 86, 0.9);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+  }
+
+ 
+  .chose-us h1 {
+    font-size: 20px;
+    color: white;
+  }
+
+  .chose-us span {
+        color: #515457;
+
+  }
+
+  .chose-us .total-shipping {
+    padding-top: 28px;
+    display: flex;
+  }
+  .chose-us .total-shipping {
+    /* margin: 0; */
+    text-align: initial;
+    color: black;
+}
+.chose-us span{
+  margin-left: 5px;
+  width: 5%;
+  padding: 11px 11px;
+}
+  .chose-us h2 {
+    font-size: 11px;
+    padding-top: 9px;
+    padding-left: 12px;
+  }
+
+  .chose-us p {
+    font-size: 10px;
+    max-width: 206px;
+    padding: 0;
+  }
+
+  .our-strength p {
+    font-size: 12px;
+    max-width: 328px;
+  }
+
+  .our-strength .advantages {
+    padding-bottom: 0px;
+  }
+
+  .our-strength .small-logo {
+    max-width: 100%;
+    text-align: center;
+    display: block;
+    padding-top: 25px;
+    margin: 0 auto;
+  }
+
+  .footer .service {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 100%;
+    padding-top: 16px;
+  }
+
+  .num-counter {
+    text-align: center;
+  }
+
+  .footer .company {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .footer .service {
+    display: block;
+    width: 53%;
+    padding-top: 32px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .footer li {
+    padding-top: 0px;
+  }
+
+  .footer h2 {
+    padding-bottom: 0px;
+  }
+}
